@@ -1,0 +1,269 @@
+/* Global Css */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+	padding: 0;
+}
+/* Header Star  */
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.header-items ul li{
+    list-style: none;
+    display: inline;
+    margin: 0px 15px;
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.header-items ul{
+    text-align: right;
+    margin-top: 30px;
+}
+
+/* Introduction section start */
+.half-side{
+    width: 40%;
+    float: left;
+    margin-left: 4%;
+    padding-left: 7%;
+}
+
+.half-side1{
+width: 40%;
+float: left;
+margin-left: 1%;
+padding-left: 5%;
+}
+.introduction-secton .half-side1 img{
+width: 75%;
+margin-top: 10px;
+}
+.font-highlight{
+    color:  #363958;
+}
+.name-highlight{
+    color: #F46060;
+}
+.link-button{
+    text-decoration: none;
+    background-color: #F46060;
+    padding: 10px 25px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.link-button:hover{
+    background: transparent;
+    border: 2px solid#F46060;
+    color: black;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+.introduction-secton{
+    height: 500px;
+    margin-bottom: 10px;
+    padding-top: 30px;   
+}
+h2{
+    font-size: 40px;
+   font-weight: 600;
+   
+}
+h1{
+   font-size: 50px;
+   font-weight: 600;
+   letter-spacing: 1px;
+   line-height: 41px;
+}
+.half-side p{
+    padding: 0px 2px 15px 0px;
+}
+
+/* Biography section start here*/
+.biography-section{
+    height: 500px;   
+   }
+   .biography-section .half-side{
+       width: 40%;
+       float: left;
+       margin-left: 1%;
+       padding-left: 3%;
+   }
+   .biography-section .half-side1{
+       width: 40%;
+       float: left;
+       margin-left: 3%;
+       padding-left: 7%;
+   }
+   .biography{
+       padding-top: 50px;
+   }
+   .biography-section .half-side1 img{
+       width: 70%;
+       margin-top: 20px;
+   }
+
+   /* Working Section Start */
+   .work-section h2{
+    text-align: center;
+    padding: 20px 0px;
+    font-weight: 500;
+   }
+   .working-category{
+    width: 30%;
+    float: left;
+    margin: 10px;
+    box-shadow: 1px 1px 3px gray;
+    border-radius: 10px;
+    background-color: #fff;
+   }
+   .working-category img{
+     width: 90%;
+     display: block;
+     margin: 0 auto;
+     padding-top: 20px;
+   }
+   .work-item{
+       padding-left: 80px;
+   }
+   .work-section{
+    background-color: #f8f9fc;
+    padding:30px 0px 80px 0px;
+    float: left;
+   }
+   .working-category h3, p{
+       padding-left: 25px;
+   }
+   .working-category p{
+       width: 90%;
+       padding-bottom: 10px;
+   }
+
+   /* Client Review Section */
+
+   .client-section h2{
+    text-align: center;
+    font-weight: 500;
+   }
+   .client-category{
+    width: 30%;
+    float: left;
+    margin: 10px;
+    box-shadow: 1px 1px 3px gray;
+    border-radius: 10px;
+    background-color: #fff;
+   }
+   .client-category img{
+     width: 90%;
+     display: block;
+     margin: 0 auto;
+     padding-top: 20px;
+   }
+   .client-item{
+       padding-left: 80px;
+   }
+   .client-section{
+    background-color: #fff;
+    padding:30px 0px 80px 0px;
+    float: left;
+    clear: both;
+   }
+   .client-category h3, p{
+       padding-left: 25px;
+   }
+   .client-category p{
+       width: 90%;
+       padding-bottom: 10px;
+   }
+   #client-highlight{
+       color: orange;
+   }
+
+   /* Work Inquery Section */
+   .bg-section{
+        padding: 70px 0px 50px 0px;
+        clear: both;
+        background-color: #f8f9fc;
+   }
+    .work-inquiry{
+        background-image: url("images/last-img.png");
+        background-position: center;
+        background-size: cover;
+        width: 65%;
+        display: block;
+        margin: 0 auto;
+        border-radius: 10px;
+        height: 180px;
+    }
+
+    .bg-section h2{
+        color: #fff;
+        margin-top: 50px;
+    }
+    .left-side{
+        width: 40%;
+        float: left;
+        margin-left: 1%;
+        padding-left: 5%;
+    }
+    .right-side {
+        width: 40%;
+        float: left;
+        margin-left: 1%;
+        padding-left: 5%;
+    }
+    .bg-btn{
+        margin: 65px 0px 0px 200px;
+        border: 2px solid #F46060;
+        padding: 10px 20px;
+        border-radius: 5px;
+        background: #F46060;
+        color: white;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    /* Footer section start*/
+
+    .container{
+        width: 1140px;
+        margin: 0 auto;
+    }
+    footer{
+        background-color: black;
+        width: 100%;
+        float: left;
+        margin-top: 20px;
+        clear: both;
+    }
+    footer p, h4, ul{
+        text-align: center;
+    }
+    .footer-left ul li{
+        list-style: none;
+        width: 50px;
+        height: 50px;
+        display: inline;
+        margin: 0px 10px;    
+        line-height: 40px;
+        border-radius: 3px;
+        color: #fff;
+    }
+    .footer-left ul{
+        padding-right: 20px;
+    }
+    .footer-left p{
+        padding-left: 8px;
+        padding-top: -10px;
+        color: rgb(151, 150, 150);
+    }
+
+    .footer-left h4{
+        color: #fff;
+        font-size: 25px; 
+    }
+    #name-highlight{
+        color: orange;
+    }
